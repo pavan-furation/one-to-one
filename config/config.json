@@ -1,0 +1,19 @@
+{
+  "development": {
+    "POSTGRESQL_URL": "postgres://pavan-furation:LdQ9fOUYKB5G@ep-green-wildflower-20742874.ap-southeast-1.aws.neon.tech/testing?sslmode=verify-full"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
